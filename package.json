@@ -19,9 +19,9 @@
   "binary": {
     "module_name": "pdfnet-addon",
     "module_path": "./",
-    "remote_path": "./node-addon-napi-demo/{version}",
+    "remote_path": "v{version}",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
-    "host": "https://localhost:8082"
+    "host": "https://github.com/tianwei-wu-hub/node-addon-napi-demo/releases/download"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.10"
