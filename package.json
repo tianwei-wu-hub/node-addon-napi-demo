@@ -1,0 +1,32 @@
+{
+  "name": "@tianwei_wu/node-addon-napi-demo",
+  "version": "1.0.0",
+  "description": "node addon napi demo",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-pre-gyp install --fallback-to-build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "addon",
+    "napi",
+    "demo"
+  ],
+  "author": "",
+  "license": "Commercial",
+  "files": [],
+  "binary": {
+    "module_name": "pdfnet-addon",
+    "module_path": "./",
+    "remote_path": "./node-addon-napi-demo/{version}",
+    "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
+    "host": "https://localhost:8082"
+  },
+  "dependencies": {
+    "@mapbox/node-pre-gyp": "^1.0.10"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1273.0"
+  }
+}
