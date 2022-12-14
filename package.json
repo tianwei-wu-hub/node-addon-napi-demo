@@ -17,6 +17,7 @@
   "license": "Commercial",
   "files": [
     "/src",
+    "/lib/index.js",
     "binding.gyp"
   ],
   "binary": {
