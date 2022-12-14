@@ -1,6 +1,6 @@
 {
   "name": "@tianwei_wu/node-addon-napi-demo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "node addon napi demo",
   "main": "./lib/index.js",
   "scripts": {
