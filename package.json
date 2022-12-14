@@ -17,11 +17,11 @@
   "license": "Commercial",
   "files": [],
   "binary": {
-    "module_name": "pdfnet-addon",
-    "module_path": "./",
-    "remote_path": "v{version}",
-    "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz",
-    "host": "https://github.com/tianwei-wu-hub/node-addon-napi-demo/releases/download"
+    "module_name": "addon",
+    "module_path": "./lib",
+    "host": "https://github.com/tianwei-wu-hub/node-addon-napi-demo/releases/download",
+    "remote_path": "./v{version}",
+    "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{arch}.tar.gz"
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.10"
