@@ -1,8 +1,8 @@
 {
   "name": "@tianwei_wu/node-addon-napi-demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node addon napi demo",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "install": "node-pre-gyp install --fallback-to-build",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,10 @@
   ],
   "author": "",
   "license": "Commercial",
-  "files": [],
+  "files": [
+    "/src",
+    "binding.gyp"
+  ],
   "binary": {
     "module_name": "addon",
     "module_path": "./lib",
