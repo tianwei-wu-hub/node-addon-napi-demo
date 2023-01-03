@@ -1,11 +1,10 @@
 {
   "name": "@tianwei_wu/node-addon-napi-demo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "node addon napi demo",
-  "main": "./lib/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "node-pre-gyp install --fallback-to-build"
   },
   "keywords": [
     "node",
@@ -16,9 +15,9 @@
   "author": "",
   "license": "Commercial",
   "files": [
-    "/src",
-    "/lib/index.js",
-    "/lib/index.d.ts",
+    "src",
+    "lib/index.js",
+    "lib/index.d.ts",
     "binding.gyp"
   ],
   "binary": {
@@ -30,8 +29,5 @@
   },
   "dependencies": {
     "@mapbox/node-pre-gyp": "^1.0.10"
-  },
-  "devDependencies": {
-    "aws-sdk": "^2.1273.0"
   }
 }
