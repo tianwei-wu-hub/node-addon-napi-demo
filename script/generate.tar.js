@@ -42,7 +42,6 @@ if (errorConfigs.length) {
     fs.writeFileSync(resolveRoot('generate.tar.error.log'), errorConfigs.join(''));
 }
 
-// test
 
 
 
